@@ -68,6 +68,27 @@ void readSearch(list &L, address P) {
     else cout << P->info << endl;
 };
 
-void update(list &L, address P, address Q);
-void deleteFirst(list &L);
-void deleteLast(list &L);
+void update(list &L, address P, address Q) {
+    if(search(L, P) == NULL) cout << "Nohting to Update";
+    else P->info = Q->info;
+};
+
+void deleteFirst(list &L) {
+    if(L.first == NULL) cout << "Empty List" << endl;
+    else if (L.first->next == NULL) L.first = NULL;
+    else {
+        address P = L.first;
+        L.first = P->next;
+        P->next = NULL;
+    }
+};
+
+void deleteLast(list &L) {
+    if(L.first == NULL) cout << "Empty List" << endl;
+    else if (L.first->next == NULL) L.first = NULL;
+    else {
+        address P = L.first;
+        while(P->next != NULL) P = P->next;
+        P->next = NULL;
+    }
+};
