@@ -36,6 +36,8 @@ adapun untuk mengcompile beberapa file menjadi satu anda dapat melakukan hal ber
 * [ ] Circular Linked List
 * [ ] Multi Linked List
 * [ ] Stack
+    * [x] Stack List Version
+    * [ ] Stack Array Version
 * [ ] Queue
 * [x] Tree
 * [ ] Graph
