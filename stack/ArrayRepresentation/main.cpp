@@ -20,5 +20,7 @@ int main() {
 
     cout << S.top << endl;
 
+    // cout << find(S, 10);ln;
+
     return 0;
 }

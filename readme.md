@@ -3,7 +3,7 @@
 
 ## Compile dengan C++
 
- Install terlebih dahulu compiler untuk c++ nya, jika anda menggunakan linux biasanya sudah terinstall. Namun untuk windows anda dapat mengikuti instruksi seperti pada link [Disini](https://www.ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.html "Tutorial Instalasi di Windows") 
+ Install terlebih dahulu compiler untuk c++ nya, jika anda menggunakan linux biasanya sudah terinstall. Namun untuk windows anda dapat mengikuti instruksi seperti pada link [disini](https://www.ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.html "Tutorial Instalasi di Windows") 
 
  ```bash
     //untuk windows
@@ -26,6 +26,12 @@ adapun untuk mengcompile beberapa file menjadi satu anda dapat melakukan hal ber
     //atau
     g++ -std=c++11 file1.cpp file2.cpp fileN.cpp -o output.exe
 ```
+
+---------------------------------------------------------------------------
+
+## Sumber Materi
+
+untuk sumber materi berupa slide bisa klik [disini](https://anditya.staff.telkomuniversity.ac.id/academic/asd/)
 
 ---------------------------------------------------------------------------
 

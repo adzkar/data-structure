@@ -46,3 +46,10 @@ void read(stack S) {
         }
     }
 };
+
+// bool find(stack S, int x) {
+//     if(!isEmpty(S)) {
+//         while(S.top != x) pop(S);
+//         return S.top != -1;
+//     } else return 0;
+// }
