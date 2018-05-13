@@ -21,6 +21,10 @@ int main() {
     del(Q);
     read(Q);ln;
 
+    add(Q, 10);
+
+    cout << find(Q, 10);ln;
+
 
     return 0;
 }

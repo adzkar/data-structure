@@ -1,7 +1,7 @@
-# Data Structure Dalam C++
+# Struktur Data C++
 
 
-## Compile c++ using g++ compiler
+## Compile dengan C++
 
  Install terlebih dahulu compiler untuk c++ nya, jika anda menggunakan linux biasanya sudah terinstall. Namun untuk windows anda dapat mengikuti instruksi seperti pada link [Disini](https://www.ics.uci.edu/~pattis/common/handouts/mingweclipse/mingw.html "Tutorial Instalasi di Windows") 
 
@@ -35,14 +35,14 @@ adapun untuk mengcompile beberapa file menjadi satu anda dapat melakukan hal ber
 * [x] Double Linked List
 * [ ] Circular Linked List
 * [ ] Multi Linked List
-* [ ] Stack
+* [x] Stack
     * [x] Stack List Version
     * [x] Stack Array Version
 * [ ] Queue
-    * [ ] List Version
+    * [x] List Version
     * [ ] Array Version
-        * [ ] Versi 1
-        * [ ] Versi 2
+        * [x] Versi 1
+        * [x] Versi 2
         * [ ] Versi 3
 * [x] Tree
 * [ ] Graph
