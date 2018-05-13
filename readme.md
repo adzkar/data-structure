@@ -37,7 +37,12 @@ adapun untuk mengcompile beberapa file menjadi satu anda dapat melakukan hal ber
 * [ ] Multi Linked List
 * [ ] Stack
     * [x] Stack List Version
-    * [ ] Stack Array Version
+    * [x] Stack Array Version
 * [ ] Queue
+    * [ ] List Version
+    * [ ] Array Version
+        * [ ] Versi 1
+        * [ ] Versi 2
+        * [ ] Versi 3
 * [x] Tree
 * [ ] Graph
