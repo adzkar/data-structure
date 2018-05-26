@@ -51,4 +51,4 @@ untuk sumber materi berupa slide bisa klik [disini](https://anditya.staff.telkom
         * [x] Versi 2
         * [x] Versi 3
 * [x] Tree
-* [ ] Graph
+* [x] Graph 

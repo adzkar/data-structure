@@ -40,7 +40,7 @@ bool isEmpty(graph G) {
 adrNode searchNode(graph G, int x) {
     if(!isEmpty(G)) {
         adrNode P = G;
-        while((P != NULL) and (P->info != x)) P = P->next;
+        while((P->next != NULL) and (P->info != x)) P = P->next;
         return (P->info == x) ? P : NULL;
     } else return NULL;
 };
@@ -51,8 +51,9 @@ void insertNode(graph &G, int x) {
     else {
         adrNode R = searchNode(G, x);
         if(R == NULL) {
-            P->next = G;
-            G = P;
+            adrNode Q = G;
+            while(Q->next != NULL) Q = Q->next;
+            Q->next = P;
         } else cout << "Duplicate";
     }
 };
@@ -74,10 +75,39 @@ void connect(graph &G, int x, int y) {
             adrEdge R = createEdge(Q);
             insertLastEdge(P->firstEdge, R);
         } else {
-            r = createEdge(Q);
-            s = createEdge(P);
+            adrEdge r = createEdge(Q);
+            adrEdge s = createEdge(P);
             insertLastEdge(P->firstEdge, r);
             insertLastEdge(Q->firstEdge, s);
+        }
+    }
+}
+
+void readNode(graph G) {
+    if(isEmpty(G)) cout << "Empty Graph";
+    else {
+        adrNode P = G;
+        while(P != NULL) {
+            cout << P->info << " ";
+            P = P->next;
+        }
+    }
+}
+
+void readGraphTree(graph G) {
+    if(isEmpty(G)) cout << "Empty Graph";
+    else {
+        adrNode P = G;
+        while(P != NULL) {
+            cout << P->info << " " << endl;
+            (P->next != NULL) ? cout << "├──" : cout << "└──";
+            adrEdge Q = P->firstEdge;
+            while(Q != NULL) {
+                cout << Q->info->info << " ";
+                Q = Q->next;
+            }
+            ln;
+            P = P->next;
         }
     }
 }
