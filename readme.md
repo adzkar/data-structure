@@ -1,5 +1,6 @@
 # Struktur Data C++
 
+Berikut adalah beberapa source code dari hasil praktek mata kuliah struktur data.
 
 ## Compile dengan C++
 
@@ -27,19 +28,17 @@ adapun untuk mengcompile beberapa file menjadi satu anda dapat melakukan hal ber
     g++ -std=c++11 file1.cpp file2.cpp fileN.cpp -o output.exe
 ```
 
----------------------------------------------------------------------------
 
 ## Sumber Materi
 
 untuk sumber materi berupa slide bisa klik [disini](https://anditya.staff.telkomuniversity.ac.id/academic/asd/)
 
----------------------------------------------------------------------------
 
 # List of Practical Data Strucutre
 
 * [x] Singgle Linked List
 * [x] Double Linked List
-* [ ] Circular Linked List
+* [x] Circular Linked List
 * [ ] Multi Linked List
 * [x] Stack
     * [x] Stack List Version
@@ -52,3 +51,12 @@ untuk sumber materi berupa slide bisa klik [disini](https://anditya.staff.telkom
         * [x] Versi 3
 * [x] Tree
 * [x] Graph 
+
+## Authors
+
+* **Adzkar Fauzie** | [Github](https://github.com/adzkar/)
+* **Rakha Dzakki**  | [Github](http://github.com/rakhadzaky/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
